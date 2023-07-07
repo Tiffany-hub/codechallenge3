@@ -1,0 +1,40 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    margin:10px;
+}
+
+.films-menu{
+    flex:2px;
+}
+
+.film-details{
+    flex:4px;
+}
+
+ul#films{
+    list-style-type: circle;
+    padding: 3px;
+}
+body{
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+}
+
+.sold-out{
+    color: blue;
+}
+
+#buyticket{
+    color: blueviolet;
+    margin-top: 10px;
+}
+
+#poster{
+    margin-bottom: 10px;
+}
